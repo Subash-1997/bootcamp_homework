@@ -1,0 +1,179 @@
+.{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: #444;
+  font-family: sans-serif;
+  line-height: 1.4;
+
+}
+
+.pancake{
+  border: 5px solid black;
+  width: 825px;
+  margin: 0 auto;
+  background-color: #CCEEFF;
+}
+.pancake-title{
+  color: orangered;
+  font-size:30px;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #CCEEFF;
+}
+.intro-sec{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+}
+
+.main-header{
+background-color: #f7f7f7;
+
+height; 80px
+
+}
+h1{
+  color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+h3{
+  
+  font-family: sans-serif;
+
+}
+
+
+ p{
+  color: black;
+  font-size: 18px;
+  margin-left: 10px;
+ } 
+
+
+
+li{
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button{
+  
+  background-color: violet ;
+  border:none;
+  color: orangered;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+}
+
+hr{
+  color: black;
+  border-width: 2px;
+  border-color: black;
+}
+.container{
+
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+body{
+  color: black;
+  font-family: sans-serif;
+
+}
+
+.batter-list{
+  color: black;
+ list-style: square;
+ margin-left: 10px;
+  
+}
+.cook-list{
+
+   color: black;
+  list-style: square;
+  margin-left: 10px;
+}
+
+tbody{
+   color: black;
+   font-size: 18px;
+
+}
+
+
+
+/* styling links */
+a:link{
+  color: blue;
+  text-decoration: none;
+  font-size: 18px;
+  
+  
+}
+a:visited {
+  color: blue;
+}
+
+a:hover{
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+
+}
+
+a:active{
+  background-color: black;
+  font-style: italic;
+}
+
+/* FLOATS */
+
+.post-img{
+  float: left;
+  border: 3px solid #109ed1;
+  padding-top: 5px;
+}
+.pan-img{
+  
+  float: right;
+  border: 3px solid #109ed1;
+  padding-top: ;
+  
+}
+
+.cake-img{
+  width: 50%;
+  height: auto;
+  border: 3px solid #109ed1;
+}
+
+table{
+  color: black;
+  padding-left: 30px;
+  padding-top: 5px;
+
+}
+e
+
+
+
+
+
+
+
+
+
+
+ 
