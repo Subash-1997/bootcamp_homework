@@ -1,0 +1,66 @@
+body{
+  font-family: Arial,sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.terms{
+  border: 1px solid #ccc;
+  padding:20px;
+  background-color: #f9f9f9;
+}
+/* form input{
+  width: 700px;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none; */
+/* .input[type="email"]{
+  width: 700px;
+  height: 35px;
+  margin-top: 20px;;
+  background-color:wheat;
+  color: white;
+  font-size: 18px;
+} */
+}
+
+.terms{
+  margin-top: 20px;
+}
+  
+
+.required::after{
+  content: "*";
+  color: red;
+}
+.signature-pad{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.textarea{
+  background-color: gainsboro;
+  resize: none;
+  line-height: 1.4;
+  width: 600px;
+  height: 200px;
+  border: 1px solid #109ed1;
+
+}
+
+canvas{
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+button{
+  margin-top: 10px;
+}
+
+
+

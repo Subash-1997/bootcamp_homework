@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Terms and Conditions</title>
+    <link rel="stylesheet" href="tstyle.css">
+    
+
+  </head>
+  <body>
+    <div class="container">
+    <h1>Terms and Conditions</h1>
+    <div class="term">
+  
+        <p>Please read our Terms and conditions and sign below.</p>
+         
+        <p>
+            <label class="required">First Name</label>
+            <input type="text" name="firstName" placeholder="" >
+          
+          
+            <label class="required">Last Name</label>
+            <input type="text" name="lastName" placeholder=""  required>
+          </p>
+        <p>
+            <label class="required">Email</label>
+            <input type="email" name="email" placeholder="" requiredrf>
+        </p>
+        <h4>Terms and Conditions</h4>
+          <div class="input-field">
+            <textarea class="textarea">
+Introduction:             
+These terms and conditions govern your use of our website. By accessing and using our website, you agree to be bound by these terms and conditions. If you do not agree with any part of these terms, please do not use our website.         
+
+Intellectual Property Rights:
+All content of the website, including but not limited to text,graphs,logos,images,and software, is the property of our company and is protected laws. You may not reproduce,distribute, or modify any account without our written content.   
+
+Privacy and policy:
+we value your privacy and are committed to protecting your personal information. Please refer to our privacy policy for more information.
+            </textarea>
+          </div>
+        
+        <p>
+          <label class="required">Please sign here</label>
+      
+        <div>
+        <canvas id="signature-pad"></canvas>
+          <button id="clearButton">Clear Signature-pad</button>
+        </div>
+        <button id="submitButton" >Submit</button>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libe/signature-pad/1.5.3/signature-pad.min.js"></script>
+      
+      
+      <script src="script.js"></script>
+    </div>
+    </body> 
+</html>     
