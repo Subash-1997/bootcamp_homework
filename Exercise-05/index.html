@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html Lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="=width=device-width, initial-scale=1.0">
+<section>
+<title>Basic Exercise</title>
+</head>
+<h1>The Fortune Teller</h1>
+<p>Why pay a fortune teller when you can just program your fortune yourself?</p>
+<ul>
+  <li>Store the following into variables:<br>number of children, <br>partner's name, <br>geographic location,<br> job title.</li>
+  <li>Output your fortune to the screen like so: <br>"You will be a X in Y, and married to Z with N kids."
+ </li>
+  
+</ul>
+<body>
+  <button  class="btn">tellfortune</button>
+  <script>
+    const btnE1 = document.querySelector('.btn');
+
+    function tellfortune() {
+      console.log('future');
+
+    }
+
+    btnE1.addEventListener('click', tellfortune);
+
+  </script>
+  </section>
+
+  <section>
+    <h1> The puppy Age Calculator</h1>
+   <p> You know how old your dog is in human years, but what about dog years? Calculate it!</p>
+ <ul>
+  <li></li> Write a function named calculateDogAge that:
+  takes 1 argument: your puppy's age.</li>
+
+<li>calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.</li>
+outputs the result to the screen like so: "Your doggie is NN years old in dog years!"</li>
+<li>Call the function three times with different sets of values.</li>
+<li>Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years</li>
+</ul>
+<button  class="btn"> calculateDogAge</button>
+<script>
+  const btnD1 = document.querySelector('.btn');
+
+  function calculateDogAge(age) {
+    console.log("Your doggie is " + dogYears + " years old in dog years!");
+
+  }
+
+  btnD1.addEventListener('click', calculateDogAge);
+
+</script>
+
+  </section>
+
+  <section>
+    <h2></h2> The Lifetime Supply Calculator</h2>
+    <p>
+      Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+      <br>
+      Write a function named calculateSupply that:
+      <ol>
+        <li>Takes 2 arguments: age, amount per day.</li>
+        <li>Calculates the amount consumed for rest of the life (based on a constant max age).</li>
+        <li>Outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"</li>
+      </ol>
+    </p>
+    <p>Bonus: Accept floating point values for amount per day, and round the result to a round number.</p>
+
+    <button class='btn'>calculateSupply</button>
+  
+    
+    <script>
+      const btnF1 = document.querySelector('.btn');
+    
+      function calculateSupply(age, numPerDay)  {
+        console.log('message');
+    
+      }
+    
+      btnF1.addEventListener('click',calculateSupply());
+    
+    </script>
+  
+  </section>
+
+  
+    <section>
+      <h2>The Geometrizer</h2>
+      <p>
+        Calculate properties of a circle, using the  definitions here.
+       </p>     
+        <ol>
+          <li>Store a radius into a variable.</li>
+          <li>Calculate the circumference based on the radius, and output "The circumference is NN".</li>
+          <li>Calculate the area based on the radius, and output "The area is NN".</li>
+        </ol>
+
+        <button class='btn'>find circle properties</button>
+  
+    
+    <script>
+      const btnC1 = document.querySelector('.btn');
+    
+      function calcGeometry(radius)  {
+       
+        console.log("The area is " + area);
+
+    
+      }
+      btnC1.addEventListener('click',calcGeometry);
+    
+    </script>
+  
+  </section>
+<section>
+  <h2> The Temperature Converter</h2>
+    <p>
+      It's hot out! Let's make a converter based on the steps here.
+      <br>
+
+      <ol>
+        <li>Create a function called celsiusToFahrenheit.</li>
+        <li>Store a celsius temperature into a variable.
+          Convert it to fahrenheit and output "NN°C is NN°F".</li>
+        <li>Create a function called fahrenheitToCelsius</li>
+        <li>Now store a fahrenheit temperature into a variable. Convert it to celsius and output "NN°F is NN°C."</li>
+      </ol>
+    </p>
+    
+    <button class='btn'>Celsius to Fahrenheit</button>
+
+    <button class='btn'>fahrenheit To Celsius</button>
+  
+    
+    <script>
+      const btnP1 = document.querySelector('.btn');
+    
+      function celsiusToFahrenheit(celsius)  {
+       
+        console.log(celsius + '°C is ' + celsiusInF + '°F');
+
+    
+      }
+      btnP1.addEventListener('click', celsiusToFahrenheit);
+
+    </script>
+
+<script>
+      \
+      const btnP2 = document.querySelector('.btn');
+    
+      function  fahrenheitToCelsius(fahrenheit) {
+       
+        console.log(fahrenheit + '°F is ' + fahrenheitInC + '°C');
+
+    
+      }
+      btnP2.addEventListener('click',calcGeometry);
+    
+    </script>
+
+
+    
+  </section>
+
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>

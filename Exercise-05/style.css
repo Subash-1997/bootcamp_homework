@@ -1,0 +1,43 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+main {
+  margin: 20px 0 20px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  box-shadow: 0px 0px 0px 2px black inset;
+  background-color: transparent;
+  color: black;
+}
+
+a {
+  color:black;
+}
